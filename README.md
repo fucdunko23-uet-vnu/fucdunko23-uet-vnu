@@ -18,9 +18,6 @@ I am a Computer Engineering student at **VNU-UET**. I am passionate about scalin
   <a href="https://www.hackerrank.com/fucdunko23">
     <img src="https://hackerrank-badges.vercel.app/api/?username=fucdunko23&badge=sql" alt="SQL Badge" height="120">
   </a>
-  <a href="https://www.hackerrank.com/fucdunko23">
-    <img src="https://hackerrank-badges.vercel.app/api/?username=fucdunko23&badge=linux" alt="Linux Badge" height="120">
-  </a>
 </p>
 
 - **Research:** Specializing in handling 40GB+ satellite imagery for calculating population density at **FIMO Lab**.
