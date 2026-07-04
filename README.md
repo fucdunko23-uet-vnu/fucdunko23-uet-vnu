@@ -1,7 +1,7 @@
 # Hi there, I'm To Vu Phuc Dang (Dang) 👋
 
 ### 🎮 Game & Systems Engineer | 🛰️ Computer Engineering Student @ VNU-UET
-I build things from the ground up — from custom game engines with AI-driven gameplay to planetary-scale geospatial ML pipelines. Currently competing in **Prompt to Play 2026** and hustling for a **GSoC 2026** contributor slot with **OSGeo**.
+I build things from the ground up — from custom game engines with AI-driven gameplay to planetary-scale geospatial ML pipelines. Currently competing a final slot in **Prompt to Play 2026** and hustling as a **GSoC 2026** contributor slot with **OSGeo** and **MLLAM**.
 
 📄 **[Download my Resume →](https://raw.githubusercontent.com/fucdunko23-uet-vnu/fucdunko23-uet-vnu/main/assets/TVPD_Resume.pdf)**
 
