@@ -4,6 +4,8 @@ Hi there, I'm To Vu Phuc Dang (Dang) 👋
 
 I build things from the ground up — from custom game engines with AI-driven gameplay to planetary-scale geospatial ML pipelines. Currently competing in Prompt to Play 2026 and hustling for a GSoC 2026 contributor slot with OSGeo.
 
+📄 Download my Resume →
+
 
 🎮 Featured Project: AEGIS — The Adaptive Machine
 
@@ -13,8 +15,12 @@ A 2D action boss-rush where a real LLM reads your combat telemetry after every r
 🧠 AI Feedback Loop: Player telemetry (dodge rate, distance, damage split, positioning) → Groq Llama-3.3-70B → validated BossConfig JSON → applied live, next fight is a different fight.
 ⚙️ Custom Engine, Zero Dependencies: Physics (AABB move-and-slide, one-way platforms, iFrames), rendering, and a delta-time game loop with hit-stop — all hand-built on raw Canvas 2D. No Phaser, no Unity.
 🤖 Boss AI: Finite State Machine + weighted-roulette skill selector with 10 tiers of "awareness" (predictive aiming, gravity-drop prediction, combo chaining) — not a scripted difficulty curve, an emergent one.
+🔗 Repo →
 
 
+🎥 Gameplay Demo
+
+Afficher l'image
 
 
 🛠️ Technical Arsenal
