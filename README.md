@@ -5,6 +5,9 @@ I like building things from scratch — engines, pipelines, whatever the project
 ---
 ### 🎮 Featured Project: AEGIS — The Adaptive Machine
 *A 2D boss-rush where the boss actually learns from how you fight. After each round, an LLM reads your combat data and rewrites the boss — new stats, new attacks, tuned to whatever you did to beat it last time.*
+
+🏆 **1st Place — Codegame Hackathon** (SOICT Innovation Club, HUST) — judged by faculty and a Big Tech engineer
+
 - **AI Feedback Loop:** Every fight, I track dodge rate, distance kept, damage split, positioning. That gets sent to Groq's Llama-3.3-70B, which returns a `BossConfig` — and the next fight is genuinely different, not just "bigger numbers."
 - **Engine built from zero:** Physics, rendering, the whole game loop — all hand-rolled on raw Canvas 2D. No Phaser, no Unity, mostly because I wanted to understand every layer of what's happening.
 - **Boss AI:** An FSM with a weighted-roulette skill selector, ten tiers of "awareness" — predictive aiming, gravity-drop prediction, combo chaining. I wanted the difficulty to emerge from the fight, not from a level-scaling spreadsheet.
