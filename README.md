@@ -1,14 +1,14 @@
 # Hi there, I'm To Vu Phuc Dang (Dang) 👋
-### 🎮 Game & Systems Engineer | 🛰️ Computer Engineering Student @ VNU-UET
-I build things from the ground up — from custom game engines with AI-driven gameplay to planetary-scale geospatial ML pipelines. Currently competing a final slot in **Prompt to Play 2026** and hustling as a **GSoC 2026** contributor slot with **OSGeo** and **MLLAM**.
+### 🎮 Game & AI Engineer | 🛰️ Computer Engineering Student @ VNU-UET
+I like building things from scratch — engines, pipelines, whatever the project needs instead of reaching for the closest off-the-shelf tool. Right now I'm in the final round of **Prompt to Play 2026**, and separately trying to land a **GSoC 2026** slot with **OSGeo**.
 📄 **[Download my Resume →](https://raw.githubusercontent.com/fucdunko23-uet-vnu/fucdunko23-uet-vnu/main/assets/TVPD_Resume.pdf)**
 ---
 ### 🎮 Featured Project: AEGIS — The Adaptive Machine
-*A 2D action boss-rush where a real LLM reads your combat telemetry after every round and rewrites the boss's AI — new stats, behavior, and skillset built specifically to counter **your** playstyle.*
-- 🧠 **AI Feedback Loop:** Player telemetry (dodge rate, distance, damage split, positioning) → Groq Llama-3.3-70B → validated `BossConfig` JSON → applied live, next fight is a different fight.
-- ⚙️ **Custom Engine, Zero Dependencies:** Physics (AABB move-and-slide, one-way platforms, iFrames), rendering, and a delta-time game loop with hit-stop — all hand-built on raw Canvas 2D. No Phaser, no Unity.
-- 🤖 **Boss AI:** Finite State Machine + weighted-roulette skill selector with 10 tiers of "awareness" (predictive aiming, gravity-drop prediction, combo chaining) — not a scripted difficulty curve, an emergent one.
-- 🎮 **[Play it live →](https://aegis-boss-rush.onrender.com/)** *(free-tier server — first load may take ~30-50s to wake up)*
+*A 2D boss-rush where the boss actually learns from how you fight. After each round, an LLM reads your combat data and rewrites the boss — new stats, new attacks, tuned to whatever you did to beat it last time.*
+- **AI Feedback Loop:** Every fight, I track dodge rate, distance kept, damage split, positioning. That gets sent to Groq's Llama-3.3-70B, which returns a `BossConfig` — and the next fight is genuinely different, not just "bigger numbers."
+- **Engine built from zero:** Physics, rendering, the whole game loop — all hand-rolled on raw Canvas 2D. No Phaser, no Unity, mostly because I wanted to understand every layer of what's happening.
+- **Boss AI:** An FSM with a weighted-roulette skill selector, ten tiers of "awareness" — predictive aiming, gravity-drop prediction, combo chaining. I wanted the difficulty to emerge from the fight, not from a level-scaling spreadsheet.
+- 🎮 **[Play it live →](https://aegis-boss-rush.onrender.com/)** *(runs on a free-tier server, so the first load can take 30–50s to wake up)*
 - 🔗 **[Repo →](https://github.com/fucdunko23-uet-vnu/aegis-boss-rush)**
 ### 🎥 Gameplay Demo
 [![AEGIS Gameplay Demo](https://img.youtube.com/vi/_uivdKRABqg/maxresdefault.jpg)](https://youtu.be/_uivdKRABqg)
@@ -30,7 +30,7 @@ I build things from the ground up — from custom game engines with AI-driven ga
 </p>
 ---
 ### 📈 Current Hustle: GSoC 2026
-- **OSGeo:** Refactoring `r.learn.ml2` for $O(1)$ memory scalability using PyGRASS and Dask.
+- **OSGeo:** Refactoring `r.learn.ml2` for $O(1)$ memory scalability using PyGRASS and Dask (Selected).
 - **MLLAM:** Implementing Icosahedral Hierarchical GNNs for global weather forecasting.
 ---
 📫 **Connect with me:**
