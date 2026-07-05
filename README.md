@@ -22,16 +22,13 @@ I like building things from scratch — engines, pipelines, whatever the project
 ### 🏆 Professional Proofs
 - **Research:** Handling 40GB+ satellite imagery for population-density modeling at **FIMO Lab**.
 - **Leadership:** Vice Head of Incubation Department @ **SOICT Innovation Club**.
-- **HackerRank:** 🌟🌟🌟🌟 (4-Star) in **SQL** and **Linux**.
-<p align="left">
-  <a href="https://www.hackerrank.com/fucdunko23">
-    <img src="https://hackerrank-badges.vercel.app/api/?username=fucdunko23&badge=sql" alt="SQL Badge" height="120">
-  </a>
-</p>
+- **HackerRank:** 🌟🌟🌟🌟 (4-Star) in **SQL** and **Linux**. [View profile →](https://www.hackerrank.com/fucdunko23)
+
 ---
 ### 📈 Current Hustle: GSoC 2026
 - **OSGeo:** Refactoring `r.learn.ml2` for $O(1)$ memory scalability using PyGRASS and Dask (Selected).
 - **MLLAM:** Implementing Icosahedral Hierarchical GNNs for global weather forecasting.
+
 ---
 📫 **Connect with me:**
 - Email: [24020433@vnu.edu.vn](mailto:24020433@vnu.edu.vn) | [fucdunko23@gmail.com](mailto:fucdunko23@gmail.com)
